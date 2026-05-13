@@ -3,9 +3,9 @@
   --surface: #ffffff;
   --text: #0f1419;
   --text-muted: #5c6670;
-  --accent: #1a365d;
-  --accent-hover: #142d4a;
-  --accent-soft: rgba(26, 54, 93, 0.12);
+  --accent: #059669;
+  --accent-hover: #047857;
+  --accent-soft: rgba(5, 150, 105, 0.12);
   --border: #e4e7ec;
   --shadow: 0 4px 24px rgba(15, 20, 25, 0.06);
   --radius: 12px;
@@ -128,7 +128,7 @@ img {
 .btn-primary {
   background: var(--accent);
   color: #fff;
-  box-shadow: 0 2px 12px rgba(26, 54, 93, 0.35);
+  box-shadow: 0 2px 12px rgba(5, 150, 105, 0.35);
 }
 
 .btn-primary:hover {
@@ -206,7 +206,7 @@ img {
 .hero {
   padding: 4rem 0 5rem;
   background:
-    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(26, 54, 93, 0.2), transparent),
+    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(5, 150, 105, 0.2), transparent),
     linear-gradient(180deg, var(--bg) 0%, #eef0f3 100%);
 }
 
@@ -237,7 +237,7 @@ img {
 
 .hero h1 {
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: clamp(2rem, 5vw, 2.85rem);
+  font-size: clamp(2.4rem, 6vw, 3.35rem);
   font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.03em;
@@ -277,7 +277,7 @@ img {
   flex-direction: column;
   gap: 1rem;
   background:
-    linear-gradient(145deg, rgba(26, 54, 93, 0.07) 0%, transparent 50%),
+    linear-gradient(145deg, rgba(5, 150, 105, 0.07) 0%, transparent 50%),
     var(--surface);
 }
 
@@ -379,7 +379,7 @@ img {
 }
 
 .service-card:hover {
-  border-color: rgba(26, 54, 93, 0.35);
+  border-color: rgba(5, 150, 105, 0.35);
   transform: translateY(-3px);
 }
 
@@ -415,12 +415,12 @@ img {
 }
 
 .cta-box {
-  background: linear-gradient(135deg, #0f2744 0%, var(--accent) 100%);
+  background: linear-gradient(135deg, #064e3b 0%, var(--accent) 100%);
   color: #fff;
   border-radius: var(--radius-lg);
   padding: 2.5rem 2rem;
   text-align: center;
-  box-shadow: 0 12px 40px rgba(26, 54, 93, 0.38);
+  box-shadow: 0 12px 40px rgba(5, 150, 105, 0.38);
 }
 
 .cta-box h2 {
